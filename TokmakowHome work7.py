@@ -1,20 +1,20 @@
 # Задача Лесенка
 # напишите программу для черепахи, чтобы она рисовала вот так  (кол-во углов произвольное)
 
-# from turtle import *
-# from time import sleep
-# shape("turtle")
-# colors = ['black', 'red', 'blue', 'orange']
-# def steps(n, size=10):
-#     for i in range(0, n):
-#         color(colors[i % 4])
-#         left(90)
-#         forward(size)
-#         right(90)
-#         forward(size)
-#         size = size + 10
-# steps(8)
-# sleep(2)
+from turtle import *
+from time import sleep
+shape("turtle")
+colors = ['black', 'red', 'blue', 'orange']
+def steps(n, size=10):
+    for i in range(0, n):
+        color(colors[i % 4])
+        left(90)
+        forward(size)
+        right(90)
+        forward(size)
+        size = size + 10
+steps(8)
+sleep(2)
 
 
 # Задача Спираль квадоата
